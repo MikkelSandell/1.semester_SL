@@ -1,0 +1,3 @@
+name=Mikkel
+age=27
+hobbis=eating, coding, sleeping, gaming
