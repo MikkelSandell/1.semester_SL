@@ -1,0 +1,15 @@
+$ npm init -y
+$ npm i express
+Then add the following key-value pair in top-level of package.json:
+
+"type": "module"
+Then you are ready to do the follwing in the app.js file:
+
+Import
+Initialize
+Start the server by making it listen on a port
+Create routes
+
+nodemon (file name)
+
+for at komme ud ctrl c
