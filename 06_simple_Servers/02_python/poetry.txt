@@ -3,3 +3,7 @@ poetry shell #start visual maskine
 poetry add uvicorn fastapi  #add dependecy
 uvicorn main:app --reload  #start serveren up
 exit
+poetry add requests  # for fetch
+curl https://127.0.0.1:8000/requestExpressData
+
+lt --port 8080

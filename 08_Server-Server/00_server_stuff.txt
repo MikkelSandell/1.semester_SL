@@ -1,0 +1,2 @@
+lt --port 8080 -s mikkel #-s er navet på serveren så får man i dette tilfølde https://mikkelsandell.loca.lt
+og så kan man tilgå endpints på normal hvis med et / og så navnet på endpintet
