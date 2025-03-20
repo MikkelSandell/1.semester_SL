@@ -76,6 +76,7 @@ async function addAnswer() {
   }
 }
 
+
 init();
 document.getElementById("createOfferButton").addEventListener("click", createOffer);
 document.getElementById("createAnswerButton").addEventListener("click", createAnswer);
