@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <h2>Basic Form</h2>
+    <h2>Basic Form FastAPI</h2>
     <form action="http://localhost:8000/form" method="POST">
         <label for="username">Username</label>
         <input type="text" name="username" placeholder="username..."><br>
@@ -19,8 +19,20 @@
 
     </form>
 
+    <h2>Basic form express</h2>
+    <form action="http://localhost:8080/form" method="POST">
+        <label for="username">Username</label>
+        <input type="text" name="username" placeholder="username..."><br>
 
-    <h2>File form</h2>
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="password..."><br>
+
+        <input type="submit" value="Send Form Data">
+
+    </form>
+
+
+    <h2>File form exoress</h2>
     <form action="http://localhost:8080/fileform" method="POST" enctype="multipart/form-data">
         <label for="file"> File</label>
         <input type="file" name="file" accept="image/*"><br>
@@ -32,6 +44,17 @@
         <input type="submit" value="Send File Data">
     </form>
     
+    <h2>File form FastAPI</h2>
+    <form action="http://localhost:8000/fileform" method="POST" enctype="multipart/form-data">
+        <label for="file"> File</label>
+        <input type="file" name="file" accept="image/*"><br>
+        <!-- you can support uploading muliple files with the multiple attribute-->
+
+        <label>Description</label>
+        <input type="text" name="description" placeholder="description..."><br>
+
+        <input type="submit" value="Send File Data">
+    </form>
  
     <script>
         const fileInput = document.querySelector('input[type="file"]');
